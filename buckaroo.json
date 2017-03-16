@@ -1,0 +1,7 @@
+{
+  "name": "ecst",
+  "dependencies": {
+    "vrm-core": "0.0.1",
+    "boost-hana": "1.63.0"
+  }
+}

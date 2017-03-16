@@ -1,0 +1,38 @@
+cxx_binary(
+  name = 'basic',
+  srcs = [
+    'basic/should_pass.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:ecst',
+  ],
+)
+
+cxx_binary(
+  name = 'context',
+  srcs = [
+    'ecst/context.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:ecst',
+  ],
+)
+
+cxx_binary(
+  name = 'particles-death',
+  srcs = [
+    'ecst/particles_death.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:ecst',
+  ],
+)

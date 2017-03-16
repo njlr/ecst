@@ -41,3 +41,9 @@ project/extlibs/*
 ./**/*.callgrind.out.*
 
 **callgrind.*
+
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
